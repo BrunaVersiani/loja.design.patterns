@@ -48,7 +48,7 @@
   <component name="RunManager" selected="Application.CalculadoraDescontoTeste">
     <configuration name="CalculadoraDescontoTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.teste.CalculadoraDescontoTeste" />
-      <module name="loja" />
+      <module name="loja.design.patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.alura.teste.*" />
@@ -61,7 +61,7 @@
     </configuration>
     <configuration name="CalculadoraImpostoTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.teste.CalculadoraImpostoTeste" />
-      <module name="loja" />
+      <module name="loja.design.patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.alura.teste.*" />
@@ -95,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697595218312</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Desenvolvimento design pattern">
+      <created>1697595621239</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697595621239</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Desenvolvimento design pattern">
+      <created>1697595881368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697595881368</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
