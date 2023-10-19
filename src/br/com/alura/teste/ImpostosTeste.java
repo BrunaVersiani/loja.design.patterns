@@ -7,11 +7,17 @@ import br.com.alura.orcamento.Orcamento;
 
 import java.math.BigDecimal;
 
-public class CalculadoraImpostoTeste {
+public class ImpostosTeste {
+
+    /*Padrao decorator voce decora um objeto com novas caracteristicas, sem alterar o codigo já existente*/
+
     public static void main(String[] args) {
-        Orcamento orcamento = new Orcamento(new BigDecimal("2000"), 4);
+        Orcamento orcamento = new Orcamento(new BigDecimal("2000"), 7);
         CalculadoraImposto calculadora = new CalculadoraImposto();
+
         System.out.println(calculadora.calcular(orcamento,new ISS(null)));
         System.out.println(calculadora.calcular(orcamento, new ICMS(null)));
+        System.out.println(calculadora.calcular(orcamento, new ICMS(new ISS(null))));
+
     }
 }
