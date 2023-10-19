@@ -16,6 +16,7 @@ public class GeraPedidoHandler {
     }
 
     /*Nesta class deve ser passado o  construtor com injecao de dependencias: repository, service, etc.
+
     Dessa maneira fica fora do padrao, já que orientaçaõ a objetos basease em juntar dados e comportamentos,
      com tudo o handler e bem comumente utilizado para termos uma melhor organização de codigo.*/
 
