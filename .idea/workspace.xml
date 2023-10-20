@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cbbc1ec-def1-4779-8778-263590ef6498" name="Changes" comment="Desenvolvimento design pattern">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/orcamento/ItemOrcamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/orcamento/Orcavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/teste/ComposicaoTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/orcamento/ProxyOrcamento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/orcamento/Orcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/orcamento/Orcamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/orcamento/pedido/GeraPedidoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/orcamento/pedido/GeraPedidoHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/teste/CalculadoraDescontoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/teste/CalculadoraDescontoTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/teste/CalculadoraImpostoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/teste/CalculadoraImpostoTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/teste/HttpAdapterTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/teste/HttpAdapterTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/teste/ImpostosTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/teste/ImpostosTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/teste/ComposicaoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/teste/ComposicaoTeste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -216,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697759660879</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Desenvolvimento design pattern">
+      <created>1697762526605</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697762526605</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
