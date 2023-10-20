@@ -1,8 +1,10 @@
 package br.com.alura.orcamento.pedido;
 
+import br.com.alura.orcamento.ItemOrcamento;
 import br.com.alura.orcamento.Orcamento;
 import br.com.alura.orcamento.pedido.acao.AcaoAposConfirmacaoPedido;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -21,7 +23,8 @@ public class GeraPedidoHandler {
      com tudo o handler e bem comumente utilizado para termos uma melhor organização de codigo.*/
 
     public void executaPedido(GeraPedido dados){
-        Orcamento orcamento = new Orcamento(dados.getValorOrcamento(), dados.getQuantidadeItens());
+        Orcamento orcamento = new Orcamento();
+        orcamento.adicionarItem(new ItemOrcamento(new BigDecimal("300")));
 
         Pedido pedido = new Pedido(dados.getCliente(), LocalDateTime.now(), orcamento);
 

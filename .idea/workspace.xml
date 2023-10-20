@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cbbc1ec-def1-4779-8778-263590ef6498" name="Changes" comment="Desenvolvimento design pattern">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/http/HttpAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/http/JavaHttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/orcamento/RegistroOrcamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/teste/HttpAdapterTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/teste/ImpostosTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/orcamento/ItemOrcamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/orcamento/Orcavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/teste/ComposicaoTeste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/imposto/ICMS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/imposto/ICMS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/imposto/ISS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/imposto/ISS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/imposto/Imposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/imposto/Imposto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/orcamento/Orcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/orcamento/Orcamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/orcamento/pedido/GeraPedidoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/orcamento/pedido/GeraPedidoHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/teste/CalculadoraDescontoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/teste/CalculadoraDescontoTeste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/teste/CalculadoraImpostoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/teste/CalculadoraImpostoTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/teste/HttpAdapterTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/teste/HttpAdapterTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/teste/ImpostosTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/teste/ImpostosTeste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -40,6 +38,19 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9b38f607-32f1-4c90-9ab6-f95216b94cde" />
+        <option name="url" value="https://github.com/BrunaVersiani/loja.design.patterns.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectId" id="2WmEhLDFqTkkZgHaOi8pO9q9qs5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -71,7 +82,7 @@
       <recent name="br.com.alura.teste" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ImpostosTeste">
+  <component name="RunManager" selected="Application.ComposicaoTeste">
     <configuration name="CalculadoraDescontoTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.teste.CalculadoraDescontoTeste" />
       <module name="loja.design.patterns" />
@@ -85,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculadoraImpostoTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.teste.CalculadoraImpostoTeste" />
+    <configuration name="ComposicaoTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.teste.ComposicaoTeste" />
       <module name="loja.design.patterns" />
       <extension name="coverage">
         <pattern>
@@ -139,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComposicaoTeste" />
         <item itemvalue="Application.ImpostosTeste" />
         <item itemvalue="Application.HttpAdapterTeste" />
         <item itemvalue="Application.TestePedidos" />
         <item itemvalue="Application.CalculadoraDescontoTeste" />
-        <item itemvalue="Application.CalculadoraImpostoTeste" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697682328753</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Desenvolvimento design pattern">
+      <created>1697759660879</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697759660879</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -212,11 +230,6 @@
           <url>file://$PROJECT_DIR$/src/br/com/alura/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/br/com/alura/teste/CalculadoraImpostoTeste.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
